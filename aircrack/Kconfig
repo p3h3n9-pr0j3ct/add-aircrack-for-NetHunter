@@ -1,0 +1,13 @@
+comment "Aditional WiFi adapter drivers for NetHunter by p3h3n9"
+
+source "drivers/aircrack/rtl8188eus/Kconfig"
+
+source "drivers/aircrack/rtl8188fu/Kconfig"
+
+source "drivers/aircrack/rtl8192eu/Kconfig"
+
+source "drivers/aircrack/rtl8192fu/Kconfig"
+
+source "drivers/aircrack/rtl8812au/Kconfig"
+
+source "drivers/aircrack/rtl8814au/Kconfig"
