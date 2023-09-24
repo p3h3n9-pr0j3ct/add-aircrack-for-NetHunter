@@ -1,7 +1,7 @@
 
-copy aircrack => source kernel =>  driver
-source kernel =>  driver
-open Kconfig
-add source "drivers/aircrack/Kconfig"
-open Makefile
-add obj-y		+= aircrack/
+- copy aircrack => source kernel =>  driver
+- source kernel =>  driver
+- open Kconfig
+- add source "drivers/aircrack/Kconfig"
+- open Makefile
+- add obj-y		+= aircrack/
